@@ -77,7 +77,7 @@
 }
 .nav-bg {
     background: rgba(0, 0, 0, 0.7) url('../img/bts-bg.jpg');
-    /*background-size: cover;*/
+    background-size: cover;
     background-blend-mode: darken;
     
 }
@@ -161,6 +161,7 @@
 
 .text-norm {
     font-size: 100%;
+    font-family: 'Merienda', cursive;
 }
 
 .heading {
@@ -169,7 +170,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    font-family: 'Merienda', cursive;
 }
 
 .btn {
@@ -201,7 +202,8 @@
     align-items: center;
     margin: auto;
     width: 70%;
-    
+    padding: 40px;
+    border: 10px inset;
 }
 
 .album-txt {
@@ -215,7 +217,7 @@
 }
 .album-img {
     /*width: 70%;*/
-    padding: 3px;
+    padding: 25px;
     margin: auto;
     justify-content: center;
     align-items: center;
